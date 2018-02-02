@@ -2,7 +2,7 @@ definition(
 	name: "Asker",
 	namespace: "Tek",
 	author: "me",
-	description: "Turns on and off a collection of lights based on the state of a specific switch.",
+	description: "Turns on and off a collection of lights from Alexa.",
 	category: "Convenience",
     iconUrl: "https://raw.githubusercontent.com/n8xd/AskHome/master/askhome108.png",
     iconX2Url: "https://raw.githubusercontent.com/n8xd/AskHome/master/askhome512.png"
