@@ -18,7 +18,7 @@ preferences {
 def connectDevPage() {
    dynamicPage(name: "connectDevPage", title:"Connect Devices", input: true, uninstall: true ) {
       section(title: "Select Devices") {
-        input "brlight", "capability.switch", title: "Select the Bedroom Light", required: true, multiple:true
+        input "brlight", "capability.switch", title: "Select the Lights", required: true, multiple:true
       }
       if (!state.tok) { try { state.tok = createAccessToken()} catch (error) {state.tok = null }}
       section(title: "Show the OAUTH ID/Token Pair") {
